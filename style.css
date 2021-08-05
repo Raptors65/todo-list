@@ -17,6 +17,12 @@
     height: 400px;
     margin: 5% auto;
 }
+.modal-content h2 {
+    display: inline-block;
+}
+.close-modal {
+    float: right;
+}
 #add-name {
     width: 80%;
 }
@@ -25,10 +31,10 @@
     height: 200px;
     width: 80%;
 }
-ul {
+#list {
     width: min(200px, 80%);
 }
-li {
+.item {
     display: block;
     margin-bottom: 20px;
 }

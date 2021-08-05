@@ -15,6 +15,7 @@
     <div class="modal">
       <div class="modal-content">
         <h2>Add Item</h2>
+        <button class="close-modal">&#10006;</button>
         <input id="add-name" type="text" placeholder="Item Name">
         <textarea id="add-description" placeholder="Item Description"></textarea>
         <button class="add-item">Add Item</button>
@@ -22,25 +23,7 @@
     </div>
     <main>
       <button class="open-modal">Add Item</button>
-      <ul>
-        <li>
-          <input type="checkbox" id="0">
-          <label for="0">Item 1</label>
-          <button class="expand">+</button>
-          <p class="description">Description 1</p>
-        </li>
-        <li>
-          <input type="checkbox" id="1">
-          <label for="1">Item 2</label>
-          <button class="expand">+</button>
-          <p class="description">Description 2</p>
-        </li>
-        <li>
-          <input type="checkbox" id="1">
-          <label for="1">Item 3</label>
-          <button class="expand">+</button>
-          <p class="description">Description 3</p>
-        </li>
+      <ul id="list">
       </ul>
     </main>
     <script src="script.js"></script>
