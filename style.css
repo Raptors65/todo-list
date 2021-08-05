@@ -1,3 +1,6 @@
+.add {
+    background-color: lightgreen;
+}
 ul {
     width: min(200px, 80%);
 }
@@ -7,4 +10,7 @@ li {
 }
 .expand {
     float: right;
+}
+.description {
+    margin-left: 23px;
 }
