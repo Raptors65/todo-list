@@ -1,5 +1,29 @@
-.add {
+.open-modal {
     background-color: lightgreen;
+}
+.modal {
+    background-color: rgb(0, 0, 0, 0.4);
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+.modal-content {
+    background-color: #eee;
+    padding: 20px;
+    width: 300px;
+    height: 400px;
+    margin: 5% auto;
+}
+#add-name {
+    width: 80%;
+}
+#add-description {
+    font-family: Arial;
+    height: 200px;
+    width: 80%;
 }
 ul {
     width: min(200px, 80%);
@@ -12,5 +36,6 @@ li {
     float: right;
 }
 .description {
+    display: none;
     margin-left: 23px;
 }
